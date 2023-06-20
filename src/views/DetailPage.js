@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, SafeAreaView, Dimensions } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import ProfileUser from './ProfileUser'
-import HomePage from './HomePage'
+import HomePage from './Home/HomePage'
 import ScanPage from './ScanPage'
 import NotificationPage from './NotificationPage'
 import { Ionicons } from '@expo/vector-icons';

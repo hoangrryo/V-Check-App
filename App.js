@@ -48,8 +48,8 @@ export default function App() {
     <AppProvider>
       <NavigationContainer>
           <Stack.Navigator>
-            <Stack.Screen name='LoginPage' options={{ headerShown: false }} component={LoginPage} />
             <Stack.Screen name='DetailPage' options={{ headerShown: false }} component={DetailPage} />
+            <Stack.Screen name='LoginPage' options={{ headerShown: false }} component={LoginPage} />
             <Stack.Screen name='QRScanner' options={{ headerShown: false }} component={QRCodeScanner} />
             <Stack.Screen name='PhotoPage' options={{ headerShown: false }} component={PhotoPage} />
             <Stack.Screen name='PhotoView' options={{ headerShown: false }} component={PhotoView} />
