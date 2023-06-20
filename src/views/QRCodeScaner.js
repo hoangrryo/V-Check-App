@@ -38,7 +38,7 @@ export default function QRCodeScaner({ navigation }) {
     <Camera
       ratio='4:3'
       style={{ height: '100%', width: '100%' }}
-      // onBarCodeScanned={handleBarCodeScanned}
+      onBarCodeScanned={handleBarCodeScanned}
     />
   </>
 }

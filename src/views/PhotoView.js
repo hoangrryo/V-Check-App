@@ -12,7 +12,7 @@ import { Appcontext } from '../Context/AppContext';
 
 export default PhotoView = ({ navigation }) => {
 
-    const { photoList, setPhotoList, setIsPhotoList } = useContext(Appcontext)
+    // const { photoList, setPhotoList, setIsPhotoList } = useContext(Appcontext)
 
     const [isPhoto, setIsPhoto] = useState(false)
     const [photo, setPhoto] = useState(null)

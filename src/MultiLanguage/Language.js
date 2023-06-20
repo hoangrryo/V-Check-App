@@ -1,6 +1,6 @@
 export default Language={
     vi: {
-        username: 'Tên tài khoản',
+        username: 'Tài khoản',
         password: 'Mật khẩu',
         fotget_password: 'Quên mật khẩu?',
         login_button: 'Đăng nhập'
